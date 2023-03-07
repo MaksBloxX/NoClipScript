@@ -1,0 +1,23 @@
+local plr = game.Players.LocalPlayer
+plr.Character.HumanoidRootPart.CFrame = CFrame.new(-204.833405, 391.139252, -3738.89966)
+wait(1)
+fireclickdetector(game:GetService("Workspace").VendingMachines.Machines.VendingMachineLab.Buttons.b1.ClickDetector)
+wait(1)
+fireclickdetector(game:GetService("Workspace").VendingMachines.Machines.VendingMachineLab.Buttons.b2.ClickDetector)
+wait(1)
+fireclickdetector(game:GetService("Workspace").VendingMachines.Machines.VendingMachineLab.Buttons.b4.ClickDetector)
+wait(1)
+fireclickdetector(game:GetService("Workspace").VendingMachines.Machines.VendingMachineLab.Buttons.b5.ClickDetector)
+wait(1)
+fireclickdetector(game:GetService("Workspace").VendingMachines.Machines.VendingMachineLab.Buttons.b3.ClickDetector)
+wait(1)
+fireclickdetector(game:GetService("Workspace").VendingMachines.Machines.VendingMachineLab.Buttons.b2.ClickDetector)
+wait(1)
+fireclickdetector(game:GetService("Workspace").VendingMachines.Machines.VendingMachineLab.Buttons.b4.ClickDetector)
+wait(1)
+plr.Character.HumanoidRootPart.CFrame = CFrame.new(-185.991699, 331.613678, -3671.97144)
+wait(1)
+local args = {
+   [1] = 33
+}
+game:GetService("ReplicatedStorage").DealershipSystem.purchase_item:InvokeServer(unpack(args))
